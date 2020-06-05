@@ -2494,3 +2494,7 @@ cite {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.nav-text {
+  font-size:18px;
+}
