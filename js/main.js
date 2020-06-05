@@ -312,7 +312,7 @@
 			 'sell':'3.0657',
 			 'link':'https://www.countryflags.io/sg/flat/64.png'},
 
-			 {'name': 'United Arab Emirates Dirham',
+			 {'name': 'UA.Emirates Dirham',
 			 'abbv': 'AED',
 			 'credit': '0.8600',
 			 'cash':'0.8600',
