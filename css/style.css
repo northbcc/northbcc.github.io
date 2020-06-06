@@ -50,7 +50,7 @@ body {
 }
 
 a {
-  color: #4aca85;
+  /* color: #4aca85; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -128,13 +128,11 @@ figure {
   }
 }
 
-.colorlib-nav .top-menu {
-  padding: 30px 30px;
-}
+
 
 @media screen and (max-width: 768px) {
   .colorlib-nav .top-menu {
-    padding: 28px 1em;
+    padding: 10px 0em;
   }
 }
 
@@ -184,14 +182,14 @@ figure {
 .colorlib-nav ul li a {
   position: relative;
   padding: 20px 12px;
-  color: rgba(255, 255, 255, 0.9);
+  /* color: rgba(255, 255, 255, 0.9); */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .colorlib-nav ul li a:hover {
-  color: #fff;
+  color: rgba(0,0,0,0.7);
 }
 
 .colorlib-nav ul li.has-dropdown {
@@ -280,7 +278,7 @@ figure {
 }
 
 .colorlib-nav ul li.active>a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
   position: relative;
 }
 
@@ -1584,7 +1582,7 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: #1a1a1a;
+  background: #eee;
   top: 0;
   right: 0;
   top: 0;
@@ -1616,9 +1614,9 @@ input[type="text"] {
   transform: translateX(0px);
 }
 
-#colorlib-offcanvas a {
+/* #colorlib-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 #colorlib-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1817,15 +1815,15 @@ input[type="text"] {
   transition: all .2s ease-out;
 }
 
-.colorlib-nav-toggle.colorlib-nav-white>i {
+/* .colorlib-nav-toggle.colorlib-nav-white>i {
   color: #fff;
   background: #fff;
-}
+} */
 
-.colorlib-nav-toggle.colorlib-nav-white>i::before,
+/* .colorlib-nav-toggle.colorlib-nav-white>i::before,
 .colorlib-nav-toggle.colorlib-nav-white>i::after {
   background: #fff;
-}
+} */
 
 .colorlib-nav-toggle i::before {
   top: -7px;
@@ -1854,7 +1852,7 @@ input[type="text"] {
   -ms-transform: rotateZ(45deg);
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
-  background: #fff;
+  background: #000;
 }
 
 .colorlib-nav-toggle.active i::after {
@@ -1864,7 +1862,7 @@ input[type="text"] {
   -ms-transform: rotateZ(-45deg);
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
-  background: #fff;
+  background: #000;
 }
 
 .colorlib-nav-toggle {
@@ -2497,4 +2495,10 @@ cite {
 
 .nav-text {
   font-size:18px;
+  color:black ;
+}
+
+.menu-1{
+  padding-top:12.5px;
+
 }
