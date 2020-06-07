@@ -241,6 +241,16 @@
 			$('.content_2').addClass("active");
 			$('.content_1').removeClass("active");
 		});
+
+		$('#submit-review').click(function(){
+			$('#review-alert').show();
+			$('body').css('overflow','hidden');
+		});
+		$('.alertHandler').click(function(){
+			$('#review-alert').hide();
+			$('body').css('overflow','unset');
+		});
+
 	};
 
 	var smoothGoTo = function(){
@@ -255,42 +265,50 @@
 			{'name': 'Hayden Z',
 			 'days': '4 years ago',
 			 'like':'55','dislike':'1',
-			 'text':'Very easy to use'},
+			 'text':'Very easy to use',
+			 'link':'images/user/male2.png'},
 	
 			 {'name': 'Jocelin O',
 			 'days': '3 years ago',
 			 'like':'110','dislike':'2',
-			 'text':"I was amazed at the service of CC Exchange. It's all good This is simply unbelievable!"},
+			 'text':"I was amazed at the service of CC Exchange. It's all good This is simply unbelievable!",
+			 'link':'images/user/female1.png'},
 	
 			 {'name': 'Dove A',
 			 'days': '3 years ago',
 			 'like':'53','dislike':'10',
-			 'text':"Needless to say we are extremely satisfied with the results. Thanks CC Exchange! Just what I was looking for."},
-	
+			 'text':"Needless to say we are extremely satisfied with the results. Thanks CC Exchange! Just what I was looking for.",
+			 'link':'images/user/female2.png'},
+
 			 {'name': 'John Lee',
 			 'days': '2 years ago',
 			 'like':'41','dislike':'6',
-			 'text':'I love NorthBlock Exchange. Recommended.'},
+			 'text':'I love NorthBlock Exchange. Recommended.',
+			 'link':'images/user/male3.png'},
 	
 			 {'name': 'Mona J',
 			 'days': '2 years ago',
 			 'like':'77','dislike':'2',
-			 'text':'I would like to personally thank you for your outstanding service. Thank you so much for your help.'},
+			 'text':'I would like to personally thank you for your outstanding service. Thank you so much for your help.',
+			 'link':'images/user/female2.png'},
 	
 			 {'name': 'Stephanie Tan',
 			 'days': '2 years ago',
 			 'like':'12','dislike':'1',
-			 'text':'Thanks North Block for making my life easier.'},
+			 'text':'Thanks North Block for making my life easier.',
+			 'link':'images/user/female4.png'},
 	
 			 {'name': 'Laurence',
 			 'days': '1 years ago',
 			 'like':'5','dislike':'0',
-			 'text':'Would recommend North Block to my friends.'},
+			 'text':'Would recommend North Block to my friends.',
+			 'link':'images/user/male4.png'},
 	
 			 {'name': 'Yap KC',
 			 'days': '3 months ago',
 			 'like':'10','dislike':'1',
-			 'text':'Highly Recommended!!'}
+			 'text':'Highly Recommended!!',
+			 'link':'images/user/male5.png'}
 		];
 
 		$.each(customer_reviews, function(i, item) {
@@ -298,8 +316,10 @@
 			example.find('#review-author').text(item.name);
 			example.find('#review-time').text(item.days);
 			example.find('#review-message').text(item.text);
+			example.find('#review-link').attr('src',item.link)
 			$('#review-wrapper').append(example);
 		});
+		$('#review-block').remove();
 	}
 
 	var tableFill = function(){

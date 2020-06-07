@@ -468,9 +468,11 @@
 			</div>
 
 			<!-- Customer Reviews-->
-			<section style="background-color: #004fa4; padding:40px 0px;" >
+			<section style="
+			background-color: #fff;
+			padding: 40px 0px;" >
 				<div class="container">
-					<div class="row">
+					<!-- <div class="row">
 						<p class="review-title" style="text-align: center; color:#fff;font-weight:bold;font-size:30px;">
 							What Clients Are Saying</p>
 					</div>
@@ -488,12 +490,63 @@
 								</blockquote>
 							</div>
 						</div>
+					</div> -->
+					<div class="row">
+						<div class="col-md-12  col-sm-12">
+							<div class="comment-wrapper" >
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										Customer Review
+									</div>
+									<div class="panel-body" >
+										
+										<ul class="media-list" style="overflow:auto;height:340px;" id="review-wrapper">
+											
+											<li class="media" id="review-block">
+												<a href="#" class="pull-left">
+													<img id="review-link" src="" alt="" class="img-circle" style="width:65px ;height:65px">
+												</a>
+												<div class="media-body">
+													<span class="text-muted pull-right">
+														<small id="review-time" class="text-muted">30 min ago</small>
+													</span>
+													<strong class="text-success">@</strong><strong id="review-author" class="text-success">MartinoMont</strong>
+													<p id="review-message">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+														Lorem ipsum dolor sit amet, <a href="#">#consecteturadipiscing </a>.
+													</p>
+													<hr>
+												</div>
+											</li>
+										</ul>
+										<hr>
+										<textarea class="form-control" placeholder="write a comment..." rows="3"></textarea>
+										<button type="button" class="reviewButton btn btn-info pull-right" id="submit-review">Post</button>
+										<div class="clearfix"></div>
+										
+									</div>
+								</div>
+							</div>
+					
+						</div>
 					</div>
 				</div>
 			</section>
-
+			<div class="alert-wrapper" style="display:none" id="review-alert">
+				<div class="alert-box" >
+					<div class="alert alert-dismissible fade in" role="alert">
+						<button type="button" class="close alertHandler"aria-label="Close"><span aria-hidden="true">×</span></button>
+						<h4 class="alertTitle" style="text-align: center;font-weight: bold;">Notice</h4>
+						<p class="alert-text">Reviews only can be made after approval.</p>
+						<p>
+						<!-- <button type="button" class="btn btn-danger">Take this action</button> -->
+						<button type="button" class="btn btn-default alertButton alertHandler">Close</button>
+						</p>
+					</div>
+				</div>
+			</div>
 			<!-- Safe & Secure-->
-			<div class="color-lib-gurantee colorlib-bg-white">
+			<div class="color-lib-gurantee colorlib-bg-white" style="background-color: whitesmoke;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center animate-box">
@@ -535,7 +588,7 @@
 				</div>
 			</div>
 			<!-- Join Our Community-->
-			<div class="color-lib-gurantee">
+			<div class="color-lib-gurantee" style="background-color: whitesmoke;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center animate-box">

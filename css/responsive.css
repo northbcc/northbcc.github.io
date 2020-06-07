@@ -85,6 +85,42 @@
         width:200px!important;
         height:60px!important;
     }
+    .reviewButton{
+        bottom:36px;
+        right:35px;
+    }
+    .alert-box{
+        margin:0px 9%;
+        right:auto;
+    }
+    .alert-text{
+        font-size: 11px;
+        text-align: center;
+    }
+    .alertButton{
+        right:37.5%;
+    }
+    .alertTitle{
+        right:35%;
+    }
+    .alert-dismissible{
+        padding-left:30px;
+    }
+    .panel-body{
+        font-size: 12px;
+    }
+
+    .panel-info{
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    #review-message{
+        font-size:10px;
+    }
+    .img-circle{
+        width:50px!important;
+        height:50px!important;
+    }
   }
   
   /* For Tablets */
