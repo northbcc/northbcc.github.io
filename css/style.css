@@ -2541,3 +2541,7 @@ cite {
   background: #004fa4!important;
   border-color: #004fa4!important;
 }
+
+.form-control{
+  width:85%!important;
+}
