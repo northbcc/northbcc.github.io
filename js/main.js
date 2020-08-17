@@ -271,19 +271,19 @@
 			 {'name': 'Jocelin O',
 			 'days': '3 years ago',
 			 'like':'110','dislike':'2',
-			 'text':"I was amazed at the service of CC Exchange. It's all good This is simply unbelievable!",
+			 'text':"I was amazed at the service of Global Exchange. It's all good This is simply unbelievable!",
 			 'link':'images/user/female1.png'},
 	
 			 {'name': 'Dove A',
 			 'days': '3 years ago',
 			 'like':'53','dislike':'10',
-			 'text':"Needless to say we are extremely satisfied with the results. Thanks CC Exchange! Just what I was looking for.",
+			 'text':"Needless to say we are extremely satisfied with the results. Thanks Global Exchange! Just what I was looking for.",
 			 'link':'images/user/female2.png'},
 
 			 {'name': 'John Lee',
 			 'days': '2 years ago',
 			 'like':'41','dislike':'6',
-			 'text':'I love NorthBlock Exchange. Recommended.',
+			 'text':'I love Global Forgein Exchange. Recommended.',
 			 'link':'images/user/male3.png'},
 	
 			 {'name': 'Mona J',
@@ -295,13 +295,13 @@
 			 {'name': 'Stephanie Tan',
 			 'days': '2 years ago',
 			 'like':'12','dislike':'1',
-			 'text':'Thanks North Block for making my life easier.',
+			 'text':'Thanks Global Forgein Exchange for making my life easier.',
 			 'link':'images/user/female4.png'},
 	
 			 {'name': 'Laurence',
 			 'days': '1 years ago',
 			 'like':'5','dislike':'0',
-			 'text':'Would recommend North Block to my friends.',
+			 'text':'Would recommend Global Exchange! to my friends.',
 			 'link':'images/user/male4.png'},
 	
 			 {'name': 'Yap KC',
